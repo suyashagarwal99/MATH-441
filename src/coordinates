@@ -1,0 +1,13 @@
+
+public class coordinates {
+	
+	public double lat;
+	public double lon;
+	public String city;
+	public coordinates(String name, double latitude, double longitude){
+		city = name;
+		lat = latitude;
+		lon = longitude;
+	}
+
+}
